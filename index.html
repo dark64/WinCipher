@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WinCipher - AES File Encryption Utility for Windows</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: monospace, sans-serif;
+        background: #ffffff;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 40px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+      }
+
+      .screenshot {
+        width: 100%;
+      }
+
+      .screenshot img {
+        width: 100%;
+        height: auto;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
+      }
+
+      .content p {
+        font-size: 12px;
+        margin-bottom: 12px;
+        color: #333;
+      }
+
+      .download-btn {
+        display: inline-block;
+        background-color: #27ae60;
+        border-radius: 6px;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        font-size: 11px;
+        line-height: 12.6923px;
+        padding: 8px 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 12px;
+        }
+
+        .container .grid {
+          grid-template-columns: 1fr;
+          gap: 40px;
+          padding: 4px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="position: absolute; font-size: 0; clip-path: inset(50%)">
+        WinCipher
+      </h1>
+      <img
+        src="ascii.png"
+        width="209px"
+        style="margin-bottom: 12px"
+        alt="WinCipher"
+      />
+      <div class="grid">
+        <div class="screenshot">
+          <img src="image.png" alt="Windows AES File Encryption Screenshot" />
+        </div>
+        <div class="content">
+          <p>
+            <strong>WinCipher</strong> is a lightweight utility that adds secure
+            file encryption directly to your Windows context menu. Simply
+            right-click any file and select "Encrypt/Decrypt" to protect your
+            sensitive files with AES encryption. The tool prompts for a
+            password, then encrypts or decrypts your file. For added security,
+            it includes SDelete integration to securely wipe original files
+            after encryption, preventing recovery. Installation is simple: just
+            run the included install.bat file to add the context menu option,
+            and uninstall just as easily when needed.
+          </p>
+          <a href="https://github.com/dark64/WinCipher/releases/download/v1.0/WinCipher-v1.0-portable.zip" class="download-btn"
+            >💾 Download (v1.0)</a
+          >
+          <p style="font-size: 10px; color: #777">
+            sha1: f924a5a2cee57de39c6d0f681912225febc573c1
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
