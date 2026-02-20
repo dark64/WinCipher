@@ -24,7 +24,9 @@ A lightweight utility that adds secure file encryption directly to your Windows 
 
 ## Download
 
-TBA
+**[💾 WinCipher v1.0](https://github.com/dark64/WinCipher/releases/download/v1.0/WinCipher-v1.0-portable.zip)**
+
+SHA1: `f924a5a2cee57de39c6d0f681912225febc573c1`
 
 ## Security Note
 
